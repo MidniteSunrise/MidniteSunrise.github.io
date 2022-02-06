@@ -1,0 +1,26 @@
+# SEO Values
+title: Minimal-Mistakes Themes
+tagline: The renowned dark theme for ...
+description: The renowned dark theme for ...
+url: https://minimal-mistakes.xyz/
+logo: https://minimal-mistakes.xyz/static/icons/pack-1/045-Minimal-Mistakes.svg
+
+# Google Analytics ID
+google_analytics:
+
+# GitHub Values
+github:
+  owner_name: Minimal-Mistakes
+  owner_url: https://github.com/Minimal-Mistakes
+  repository_url: https://github.com/Minimal-Mistakes/Minimal-Mistakes-Website
+
+show_downloads: false
+show_forks: false
+show_header: true
+remote_theme: "Minimal-Mistakes/Minimal-Mistakes-Website"
+
+sass:
+    style: compressed
+
+plugins:
+  - jekyll-seo-tag
