@@ -22,7 +22,7 @@
       {% if site.show_header %}
         <div id="header">
           <nav>
-            <li class="home"><a href="/">Minimal-Mistakes</a></li>
+            <li class="home"><a href="/">{{ site.github.owner_name }}</a></li>
             {% if site.show_forks %}
               {% if site.github.repository_url %}
                 <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
@@ -40,9 +40,9 @@
 
               <li class="title">DOWNLOADS</li>
             {% endif %}
-            <li class="about"><a href="/about">About</a></li>
-            <li class="blog"><a href="/blog">Blog</a></li>
             <li class="contribute"><a href="/contribute">Contribute</a></li>
+            <li class="blog"><a href="/blog">Blog</a></li>
+            <li class="about"><a href="/about">About</a></li>  
           </nav>
         </div><!-- end header -->
       {% endif %}
