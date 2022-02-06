@@ -1,5 +1,6 @@
 ---
 layout: default
+sitemap: false
 colorspace: red
 ---
 
@@ -14,19 +15,19 @@ colorspace: red
 ```yaml
 listings:
   "Featured":
-    'React Dev Tools':
-      link: '#example'
-      icon: '/assets/images/candies.png'
-    'Slack':
-      link: '#example'
-      icon: '/assets/images/candies.png'
-    'Visual Studio Code':
-      link: '#example'
-      icon: '/assets/images/candies.png'
+    "React Dev Tools":
+      link: "#example"
+      icon: "/assets/images/candies.png"
+    "Slack":
+      link: "#example"
+      icon: "/assets/images/candies.png"
+    "Visual Studio Code":
+      link: "#example"
+      icon: "/assets/images/candies.png"
   "Code Editors":
-    'Vim':
-      link: '#example'
-      icon: '/assets/images/candies.png'
+    "Vim":
+      link: "#example"
+      icon: "/assets/images/candies.png"
 ```
 
 As you can see, each Listings page has a page variable defined of `listings` with aa nested category hash with it's frontend name. These categories then have a final nested hash with the Listing items name and a link/icon pair inside.

@@ -7,8 +7,10 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/hamburger.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -22,27 +24,51 @@
     {% if site.show_header %}
       <div id="header">
         <nav>
-          <li class="fork"><a href="/">{{ site.github.owner_name }}</a></li>
-          {% if site.show_forks %}
-            {% if site.github.repository_url %}
-              <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+          <div class="left">
+            <li class="home">
+              <a href="/">{{ site.github.owner_name }}</a>
+            </li>
+            {% if site.show_forks %}
+              {% if site.github.repository_url %}
+                <li class="fork">
+                  <a href="{{ site.github.repository_url }}">View On GitHub</a>
+                </li>
+              {% endif %}
             {% endif %}
-          {% endif %}
+          </div>
+          <div class="right">
+            <li class="toggle">
+              <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+            <div id="toggleMenu">
+              {% if site.show_downloads %}
+                {% if site.github.zip_url %}
+                  <li class="downloads">
+                    <a href="{{ site.github.zip_url }}">ZIP</a>
+                  </li>
+                {% endif %}
 
-          {% if site.show_downloads %}
-            {% if site.github.zip_url %}
-              <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
-            {% endif %}
+                {% if site.github.tar_url %}
+                  <li class="downloads">
+                    <a href="{{ site.github.tar_url }}">TAR</a>
+                  </li>
+                {% endif %}
 
-            {% if site.github.tar_url %}
-              <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-            {% endif %}
-
-            <li class="title">DOWNLOADS</li>
-          {% endif %}
-          <li class="contribute"><a href="/contribute">Contribute</a></li>
-          <li class="blog"><a href="/blog">Blog</a></li>
-          <li class="about"><a href="/about">About</a></li>  
+                <li class="title">DOWNLOADS</li>
+              {% endif %}
+              <li class="contribute">
+                <a href="/contribute">Contribute</a>
+              </li>
+              <li class="blog">
+                <a href="/blog">Blog</a>
+              </li>
+              <li class="about">
+                <a href="/about">About</a>
+              </li>
+            </div>      
+          </div>    
         </nav>
       </div><!-- end header -->
     {% endif %}
