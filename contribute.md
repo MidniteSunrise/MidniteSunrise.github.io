@@ -7,6 +7,22 @@ colorspace: orange
 
 All instructions can be found at [minimal-mistakes.xyz](https://minimal-mistakes.xyz/).
 
+## FAQ
+
+###### "Are you going to create a light color scheme?"
+
+Nope. Minimal-Mistakes can't stand the light.
+
+###### "Are you going to support editor X?"
+
+We hope so, but we need your help to accomplish that. Since you're already using app X you're probably much more experienced on it than us. So give it a try first!
+
+###### "How do I submit a new theme?"
+
+1. Create a new repository based on this [template](https://github.com/minimal-mistakes/template).
+2. Build the new theme using the [Color Palette](#color-palette) above.
+3. Finally, [submit an issue](https://github.com/minimal-mistakes/theme/issues/new) with a link to your repository. Once the theme is accepted, we will move the repository under the Minimal-Mistakes organization and give you rights to maintain it :)
+
 ## Color Palette
 
 | Palette       | Hex       | RGB                | HSL                      | CMYK               | ![Color Picker Boxes](https://minimal-mistakes.xyz/static/img/color-boxes/eyedropper.png)   |
@@ -32,19 +48,3 @@ All instructions can be found at [minimal-mistakes.xyz](https://minimal-mistakes
 | Yellow_Bright | `#ffffa6` | `rgb(255,255,166)` | `hsl(60,100%,82.5%)`     | `cmyk(0,0,35,0)`   | ![Yellow Color](https://minimal-mistakes.xyz/static/img/color-boxes/yellow_bright.png)      |
 
 For more details about how to apply these different colors to represent different code symbols, please see the [Minimal-Mistakes Specification](https://minimal-mistakes.xyz/specs).
-
-## FAQ
-
-###### "Are you going to create a light color scheme?"
-
-Nope. Minimal-Mistakes can't stand the light.
-
-###### "Are you going to support editor X?"
-
-We hope so, but we need your help to accomplish that. Since you're already using app X you're probably much more experienced on it than us. So give it a try first!
-
-###### "How do I submit a new theme?"
-
-1. Create a new repository based on this [template](https://github.com/minimal-mistakes/template).
-2. Build the new theme using the [Color Palette](#color-palette) above.
-3. Finally, [submit an issue](https://github.com/minimal-mistakes/theme/issues/new) with a link to your repository. Once the theme is accepted, we will move the repository under the Minimal-Mistakes organization and give you rights to maintain it :)
