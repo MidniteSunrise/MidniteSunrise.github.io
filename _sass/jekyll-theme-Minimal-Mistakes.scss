@@ -155,17 +155,21 @@ table {
 }
 
 th {
-	text-align: left;
+	text-align: center;
 	padding: 10px;
-	background: $comment;
+	background: $selection;
 	color: $foreground;
+	border: 1px solid $bright_pink;
 	font-weight: 600;
 }
 
 td {
-	text-align: left;
+	text-align: center;
 	padding: 5px 10px;
-	border-bottom: 2px solid $purple;
+	border: 1px solid $bright_pink;
+	img {
+		border: 1px solid $foreground;
+	}
 }
 
 hr {
