@@ -22,6 +22,9 @@ listings:
     "nvim":
       link: "#example"
       icon: "/assets/images/candies.png"
+    "Visual Studio Code":
+      link: "#example"
+      icon: "/assets/images/candies.png"
   "Terminals":
     "Kitty":
       link: "#example"
