@@ -89,59 +89,59 @@ We hope so, but we need your help to accomplish that. Since you're already using
     </tr>
     <tr>
       <td>Cyan</td>
-      <td id="hex" class="hex">#88c0d0</td>
-      <td id="rgb" class="rgb hide">rgb(136,192,208)</td>
-      <td id="hsl" class="hsl hide">hsl(193.3,43.4%,67.5%)</td>
-      <td id="cmyk" class="cmyk hide">cmyk(35,8,0,18)</td>
-      <td><input type="color" disabled value="#88c0d0"></td>
+      <td id="hex" class="hex">#59fff9</td>
+      <td id="rgb" class="rgb hide">rgb(89,255,249)</td>
+      <td id="hsl" class="hsl hide">hsl(177.8,100%,67.5%)</td>
+      <td id="cmyk" class="cmyk hide">cmyk(65,0,2,0)</td>
+      <td><input type="color" disabled value="#59fff9"></td>
     </tr>
     <tr>
       <td>Green</td>
       <td id="hex" class="hex">#a3be8c</td>
-      <td id="rgb" class="rgb hide">rgb(163,190,140)</td>
-      <td id="hsl" class="hsl hide">hsl(92.4,27.8%,64.7%)</td>
-      <td id="cmyk" class="cmyk hide">cmyk(14,0,26,25)</td>
+      <td id="rgb" class="rgb hide">rgb(89,255,89)</td>
+      <td id="hsl" class="hsl hide">hsl(120,100%,67.5%)</td>
+      <td id="cmyk" class="cmyk hide">cmyk(65,0,65,0)</td>
       <td><input type="color" disabled value="#a3be8c"></td>
     </tr>
     <tr>
       <td>Orange</td>
-      <td id="hex" class="hex">#d08770</td>
-      <td id="rgb" class="rgb hide">rgb(208,135,112)</td>
-      <td id="hsl" class="hsl hide">hsl(14.4,50.5%,62.7%)</td>
-      <td id="cmyk" class="cmyk hide">cmyk(0,35,46,18)</td>
-      <td><input type="color" disabled value="#d08770"></td>
+      <td id="hex" class="hex">#ff9c59</td>
+      <td id="rgb" class="rgb hide">rgb(255,156,89)</td>
+      <td id="hsl" class="hsl hide">hsl(24.2,100%,67.5%)</td>
+      <td id="cmyk" class="cmyk hide">cmyk(0,39,65,0)</td>
+      <td><input type="color" disabled value="#ff9c59"></td>
     </tr>
     <tr>
       <td>Pink</td>
-      <td id="hex" class="hex">#b48ead</td>
-      <td id="rgb" class="rgb hide">rgb(180,142,173)</td>
-      <td id="hsl" class="hsl hide">hsl(311.1,20.2%,63.1%)</td>
-      <td id="cmyk" class="cmyk hide">cmyk(0,21,4,29)</td>
-      <td><input type="color" disabled value="#b48ead"></td>
+      <td id="hex" class="hex">#ff59f9</td>
+      <td id="rgb" class="rgb hide">rgb(255,89,249)</td>
+      <td id="hsl" class="hsl hide">hsl(302.2,100%,67.5%)</td>
+      <td id="cmyk" class="cmyk hide">cmyk(0,65,2,0)</td>
+      <td><input type="color" disabled value="#ff59f9"></td>
     </tr>
     <tr>
       <td>Purple</td>
-      <td id="hex" class="hex">#765eac</td>
-      <td id="rgb" class="rgb hide">rgb(118,94,172)</td>
-      <td id="hsl" class="hsl hide">hsl(258.5,32%,52.2%)</td>
-      <td id="cmyk" class="cmyk hide">cmyk(31,45,0,33)</td>
-      <td><input type="color" disabled value="#765eac"></td>
+      <td id="hex" class="hex">#9059ff</td>
+      <td id="rgb" class="rgb hide">rgb(144,89,255)</td>
+      <td id="hsl" class="hsl hide">hsl(259.9,100%,67.5%)</td>
+      <td id="cmyk" class="cmyk hide">cmyk(44,65,0,0)</td>
+      <td><input type="color" disabled value="#9059ff"></td>
     </tr>
     <tr>
       <td>Red</td>
-      <td id="hex" class="hex">#bf616a</td>
-      <td id="rgb" class="rgb hide">rgb(191,97,106)</td>
-      <td id="hsl" class="hsl hide">hsl(354.3,42.3%,56.5%)</td>
-      <td id="cmyk" class="cmyk hide">cmyk(0,49,45,25)</td>
-      <td><input type="color" disabled value="#bf616a"></td>
+      <td id="hex" class="hex">#ff5959</td>
+      <td id="rgb" class="rgb hide">rgb(255,89,89)</td>
+      <td id="hsl" class="hsl hide">hsl(0,100%,67.5%)</td>
+      <td id="cmyk" class="cmyk hide">cmyk(0,65,65,0)</td>
+      <td><input type="color" disabled value="#ff5959"></td>
     </tr>
     <tr>
       <td>Yellow</td>
-      <td id="hex" class="hex">#ebcb8b</td>
-      <td id="rgb" class="rgb hide">rgb(235,203,139)</td>
-      <td id="hsl" class="hsl hide">hsl(40,70.6%,73.3%)</td>
-      <td id="cmyk" class="cmyk hide">cmyk(0,14,41,8)</td>
-      <td><input type="color" disabled value="#ebcb8b"></td>
+      <td id="hex" class="hex">#ffff59</td>
+      <td id="rgb" class="rgb hide">rgb(255,255,89)</td>
+      <td id="hsl" class="hsl hide">hsl(60,100%,67.5%)</td>
+      <td id="cmyk" class="cmyk hide">cmyk(0,0,65,0)</td>
+      <td><input type="color" disabled value="#ffff59"></td>
     </tr>
     <tr>
       <td>Cyan_Bright</td>
