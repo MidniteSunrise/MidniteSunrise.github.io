@@ -17,6 +17,10 @@ layout: default
                         src="https://img.shields.io/github/stars/{{ site.github.owner_name }}/{{ page.repo }}?colorA=44475a&colorB=bd93f9&style=flat-square" />
                 </div>
                 {% endif %}
+                {% if page.screenshot %}
+                <img
+                    src="https://github.com/{{ site.github.owner_name }}/{{ page.repo }}/blob/main/{{ page.screenshot }}?raw=true" />
+                {% endif %}
             </div>
         </section>
         <h1 class="app-title">{{ page.title | escape }}</h1>
