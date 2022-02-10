@@ -23,12 +23,12 @@ listings:
       link: "#example"
       icon: "/assets/images/candies.png"
     "Visual Studio Code":
-      link: "/apps/vscode"
+      link: "/apps/code-editors/vscode"
       icon: "/static/icons/apps/code-editors/vscode.svg"
   "Terminals":
     "Kitty":
-      link: "#example"
-      icon: "/assets/images/candies.png"
+      link: "/apps/terminals/kitty"
+      icon: "/static/icons/apps/terminals/kitty.svg"
     "xTerm":
       link: "#example"
       icon: "/assets/images/candies.png"
