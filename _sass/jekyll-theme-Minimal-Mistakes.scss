@@ -136,14 +136,14 @@ code {
 
 pre {
 	padding: 8px 15px;
-	background: $background;
-	border: 3px solid $pink;
+	background: $current;
+	border: 1px solid $purple;
 	overflow: auto;
 	overflow-y: hidden;
 
 	code {
 		color: $foreground;
-		background: $background;
+		background: $current;
 		margin: 0;
 		padding: 0;
 	}
