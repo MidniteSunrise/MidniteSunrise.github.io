@@ -2,7 +2,6 @@
 layout: app
 colorspace: pink
 title: Visual Studio Code
-description: "Dark theme for {{ page.title | escape }} <a href="/">and other apps.</a>!
 icon: "/assets/images/candies.png"
 screenshot: "/assets/images/candies.png"
 repo: "visual-studio-code"
