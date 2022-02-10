@@ -14,12 +14,9 @@ listings:
       icon: "/assets/images/candies.png"
   "Code Editors":
     "Vim":
-      link: "#example"
-      icon: "/assets/images/candies.png"
+      link: "/apps/code-editors/vim"
+      icon: "/static/icons/apps/code-editors/vim.svg"
     "Sublime":
-      link: "#example"
-      icon: "/assets/images/candies.png"
-    "nvim":
       link: "#example"
       icon: "/assets/images/candies.png"
     "Visual Studio Code":
