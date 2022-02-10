@@ -24,7 +24,7 @@ listings:
       icon: "/assets/images/candies.png"
     "Visual Studio Code":
       link: "/apps/vscode"
-      icon: "/assets/images/candies.png"
+      icon: "/static/icons/apps/code-editors/vscode.svg"
   "Terminals":
     "Kitty":
       link: "#example"

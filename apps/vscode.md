@@ -2,7 +2,7 @@
 layout: app
 colorspace: pink
 title: Visual Studio Code
-icon: "/assets/images/candies.png"
+icon: "/static/icons/apps/code-editors/vscode.svg"
 screenshot: "screenshot.png"
 repo: "visual-studio-code"
 ---

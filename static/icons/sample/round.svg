@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>round-svg</title>
+	<style>
+		.s0 { fill: #283036 } 
+		.s1 { fill: #46545e } 
+	</style>
+	<path id="Layer" class="s0" d="m512 256c0 141.4-114.6 256-256 256c-141.4 0-256-114.6-256-256c0-141.4 114.6-256 256-256c141.4 0 256 114.6 256 256z" />
+	<path id="Layer" class="s1" d="m465 256c0 115.4-93.6 209-209 209c-115.4 0-209-93.6-209-209c0-115.4 93.6-209 209-209c115.4 0 209 93.6 209 209z" />
+</svg>
