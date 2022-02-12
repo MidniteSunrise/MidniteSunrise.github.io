@@ -97,11 +97,11 @@ We hope so, but we need your help to accomplish that. Since you're already using
     </tr>
     <tr>
       <td>Green</td>
-      <td id="hex" class="hex">#a3be8c</td>
+      <td id="hex" class="hex">#59ff59</td>
       <td id="rgb" class="rgb hide">rgb(89,255,89)</td>
       <td id="hsl" class="hsl hide">hsl(120,100%,67.5%)</td>
       <td id="cmyk" class="cmyk hide">cmyk(65,0,65,0)</td>
-      <td><input type="color" disabled value="#a3be8c"></td>
+      <td><input type="color" disabled value="#59ff59"></td>
     </tr>
     <tr>
       <td>Orange</td>
