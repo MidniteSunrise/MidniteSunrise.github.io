@@ -1,10 +1,10 @@
 ---
 layout: post
-title: New Website
+title: New Themes Added
 colorspace: cyan
 ---
 
-Welcome to our website over the past few weeks we have been hard at work to bring you the best color scheme we could think of.
+Hello friends, today we have been working hard to add more project to the color scheme, we really hope you enjoy the colors we have chosen.
 
 <!-- more -->
 
