@@ -32,6 +32,9 @@ listings:
     "GTK":
       link: "/apps/themes/gtk"
       icon: "/static/icons/apps/themes/gtk.svg"
+    "Icons":
+      link: "/apps/themes/icons"
+      icon: "/static/icons/apps/themes/icons.svg"
     "QT":
       link: "/apps/themes/qt"
       icon: "/static/icons/apps/themes/qt.svg"

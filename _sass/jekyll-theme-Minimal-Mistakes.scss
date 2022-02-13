@@ -151,7 +151,6 @@ pre {
 }
 
 table {
-	width: 100%;
 	border-collapse: collapse;
 }
 
@@ -480,6 +479,9 @@ section {
 		}
 	}
 	@include clearfix();
+}
+table.contribute {
+	width: 100%;
 }
 
 @media print, screen and (max-width: 720px) {

@@ -35,7 +35,7 @@ We hope so, but we need your help to accomplish that. Since you're already using
   </div>
 </div>
 
-<table>
+<table class="contribute">
   <thead>
     <tr>
       <th>Palette</th>

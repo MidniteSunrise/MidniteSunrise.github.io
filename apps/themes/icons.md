@@ -16,7 +16,10 @@ Download using the [GitHub .zip download](https://github.com/minimal-mistakes/ic
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```
-git clone https://github.com/Minimal-Mistakes/icons.git ~/.icons/minimal-mistakes
+git clone https://github.com/Minimal-Mistakes/icons.git ~/.cache/icons/
+cp ~/.cache/icons/Gnome-Minimal-Mistakes ~/.icons/Gnome-Minimal-Mistakes
+cp ~/.cache/icons/Numix-Minimal-Mistakes ~/.icons/Numix-Minimal-Mistakes
+cp ~/.cache/icons/Papirus-Minimal-Mistakes ~/.icons/Papirus-Minimal-Mistakes
 ```
 
 #### Activating icon theme
@@ -78,7 +81,6 @@ Change via distribution specific tweak tool i.e `qt5ct` or `qt6ct`.
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/icons/graphs/contributors).
 
-| [![Minimal-Mistakes](https://avatars.githubusercontent.com/u/99121492?s=125)](https://github.com/Minimal-Mistakes) |
+| [Minimal-Mistakes](https://github.com/Minimal-Mistakes)                                                            |
 | ------------------------------------------------------------------------------------------------------------------ |
-
-| [Minimal-Mistakes](https://github.com/Minimal-Mistakes)
+| [![Minimal-Mistakes](https://avatars.githubusercontent.com/u/99121492?s=125)](https://github.com/Minimal-Mistakes) |
