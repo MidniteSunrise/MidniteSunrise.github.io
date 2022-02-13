@@ -43,7 +43,7 @@ git clone https://github.com/Minimal-Mistakes/icons.git ~/.icons/minimal-mistake
 
 Change via distribution specific tweak tool i.e `qt5ct` or `qt6ct`.
 
-## Contributors
+# Contributors
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/qt/graphs/contributors).
 

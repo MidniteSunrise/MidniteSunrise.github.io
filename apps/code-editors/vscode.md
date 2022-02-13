@@ -29,7 +29,7 @@ npm run build
 
 Run Visual Studio Code. The Minimal-Mistakes Syntax Theme will be available from `File -> Preferences -> Color` Theme dropdown menu.
 
-## Contributors
+# Contributors
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/visual-studio-code/graphs/contributors).
 

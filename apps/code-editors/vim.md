@@ -90,7 +90,7 @@ use {
 
 Place `colorscheme minimal-mistakes` anywhere in the config.
 
-## Contributors
+# Contributors
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/vim/graphs/contributors).
 

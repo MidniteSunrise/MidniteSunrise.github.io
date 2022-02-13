@@ -26,7 +26,7 @@ cp ~/.cache/atom/minimal-mistakes-syntax ~/.atom/packages/minimal-mistakes-synta
 Go to `Atom -> Preferences...`, click in the `Themes` tab, and select `Minimal-Mistakes` in the `UI Theme` dropdown.
 Go to `Atom -> Preferences...`, click in the `Themes` tab, and select `Minimal-Mistakes` in the `Syntax Theme` dropdown.
 
-## Contributors
+# Contributors
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/atom/graphs/contributors).
 

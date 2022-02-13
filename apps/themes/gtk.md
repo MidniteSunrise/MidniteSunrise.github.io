@@ -54,7 +54,7 @@ gsettings set org.gnome.desktop.interface icon-theme "Minimal-Mistakes"
 
 or Change via distribution specific tweak tool.
 
-## Contributors
+# Contributors
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/gtk/graphs/contributors).
 

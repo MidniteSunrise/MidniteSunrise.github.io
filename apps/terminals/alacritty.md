@@ -25,7 +25,7 @@ copy code from `alacritty.yml` to the color settings of `~/.config/alacritty/ala
 
 Reload alacritty for the config to take affect.
 
-## Contributors
+# Contributors
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/alacritty/graphs/contributors).
 

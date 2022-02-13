@@ -28,7 +28,7 @@ Reload kitty for the config to take affect.
 
 Alternatively copy paste colors.conf directly into kitty.conf.
 
-## Contributors
+# Contributors
 
 This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/kitty/graphs/contributors).
 
