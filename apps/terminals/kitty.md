@@ -27,3 +27,12 @@ add `include colors.conf` to the top of `~/.config/kitty/kitty.conf`
 Reload kitty for the config to take affect.
 
 Alternatively copy paste colors.conf directly into kitty.conf.
+
+## Contributors
+
+This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/kitty/graphs/contributors).
+
+| [![Minimal-Mistakes](https://avatars.githubusercontent.com/u/99121492?s=125)](https://github.com/Minimal-Mistakes) |
+| ------------------------------------------------------------------------------------------------------------------ |
+
+| [Minimal-Mistakes](https://github.com/Minimal-Mistakes)

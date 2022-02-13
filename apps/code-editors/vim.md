@@ -89,3 +89,12 @@ use {
 ```
 
 Place `colorscheme minimal-mistakes` anywhere in the config.
+
+## Contributors
+
+This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/vim/graphs/contributors).
+
+| [![Minimal-Mistakes](https://avatars.githubusercontent.com/u/99121492?s=125)](https://github.com/Minimal-Mistakes) |
+| ------------------------------------------------------------------------------------------------------------------ |
+
+| [Minimal-Mistakes](https://github.com/Minimal-Mistakes)

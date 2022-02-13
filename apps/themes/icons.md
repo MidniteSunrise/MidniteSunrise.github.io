@@ -73,3 +73,12 @@ cp ~/.cache/qt-themes/qt6/ ~/.config/qt6ct/minimal-mistakes
 #### Activating theme
 
 Change via distribution specific tweak tool i.e `qt5ct` or `qt6ct`.
+
+## Contributors
+
+This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/icons/graphs/contributors).
+
+| [![Minimal-Mistakes](https://avatars.githubusercontent.com/u/99121492?s=125)](https://github.com/Minimal-Mistakes) |
+| ------------------------------------------------------------------------------------------------------------------ |
+
+| [Minimal-Mistakes](https://github.com/Minimal-Mistakes)

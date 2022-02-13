@@ -42,3 +42,12 @@ git clone https://github.com/Minimal-Mistakes/icons.git ~/.icons/minimal-mistake
 #### Activating icon theme
 
 Change via distribution specific tweak tool i.e `qt5ct` or `qt6ct`.
+
+## Contributors
+
+This theme is maintained by the following person(s) Wanna help too? Check the [repository on GitHub](https://github.com/minimal-mistakes/qt/graphs/contributors).
+
+| [![Minimal-Mistakes](https://avatars.githubusercontent.com/u/99121492?s=125)](https://github.com/Minimal-Mistakes) |
+| ------------------------------------------------------------------------------------------------------------------ |
+
+| [Minimal-Mistakes](https://github.com/Minimal-Mistakes)
