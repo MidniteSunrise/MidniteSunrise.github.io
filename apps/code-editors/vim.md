@@ -9,7 +9,7 @@ repo: "vim"
 
 #### Install
 
-Download using the [GitHub .zip](https://github.com/Minimal-Mistakes/vim/archive/master.zip) download option
+Download using the [GitHub .zip](https://github.com/Minimal-Mistakes/vim/archive/main.zip) download option
 
 #### Install using Git
 

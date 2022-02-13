@@ -9,7 +9,7 @@ repo: "Atom"
 
 #### Install
 
-Download using the [GitHub .zip](https://github.com/Minimal-Mistakes/atom/archive/master.zip) download option
+Download using the [GitHub .zip](https://github.com/Minimal-Mistakes/atom/archive/main.zip) download option
 
 #### Install using Git
 
