@@ -26,8 +26,8 @@ listings:
       link: "/apps/code-editors/atom"
       icon: "/static/icons/apps/code-editors/atom.svg"
     "Emacs":
-      link: "#example"
-      icon: "/assets/images/candies.png"
+      link: "/apps/code-editors/emacs"
+      icon: "/static/icons/apps/code-editors/emacs.svg"
     "Vim":
       link: "/apps/code-editors/vim"
       icon: "/static/icons/apps/code-editors/vim.svg"
