@@ -34,6 +34,10 @@ listings:
     "Visual Studio Code":
       link: "/apps/code-editors/vscode"
       icon: "/static/icons/apps/code-editors/vscode.svg"
+  "Notification":
+    "Dunst":
+      link: "/apps/notification/dunst"
+      icon: "/static/icons/apps/notification/dunst.svg"
   "Themes":
     "GTK":
       link: "/apps/themes/gtk"
