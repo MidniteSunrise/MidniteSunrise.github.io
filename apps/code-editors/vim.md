@@ -70,10 +70,10 @@ Plugin 'Minimal-Mistakes/vim', { 'name': 'minimal-mistakes' }
 
 Place `colorscheme minimal-mistakes` after `call vundle#end()`.
 
-If you use vim-plug ('as' will install the plugin in a directory called 'dracula' instead of just 'vim'):
+If you use vim-plug ('as' will install the plugin in a directory called 'MinimalMistakes' instead of just 'vim'):
 
 ```
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'Minimal-Mistakes/vim', { 'as': 'MinimalMistakes' }
 :PlugInstall
 ```
 

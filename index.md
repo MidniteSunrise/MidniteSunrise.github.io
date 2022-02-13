@@ -3,20 +3,23 @@ layout: home
 colorspace: green
 listings:
   "Featured":
-    "React Dev Tools":
-      link: "#example"
-      icon: "/assets/images/candies.png"
-    "Slack":
-      link: "#example"
-      icon: "/assets/images/candies.png"
+    "Vim":
+      link: "/apps/code-editors/vim"
+      icon: "/static/icons/apps/code-editors/vim.svg"
+    "Kitty":
+      link: "/apps/terminals/kitty"
+      icon: "/static/icons/apps/terminals/kitty.svg"
+    "Alacritty":
+      link: "/apps/terminals/alacritty"
+      icon: "/static/icons/apps/terminals/alacritty.svg"
     "GTK":
-      link: "#example"
-      icon: "/assets/images/candies.png"
+      link: "/apps/themes/gtk"
+      icon: "/static/icons/apps/themes/gtk.svg"
   "Code Editors":
     "Vim":
       link: "/apps/code-editors/vim"
       icon: "/static/icons/apps/code-editors/vim.svg"
-    "Sublime":
+    "Emacs":
       link: "#example"
       icon: "/assets/images/candies.png"
     "Visual Studio Code":
@@ -26,10 +29,10 @@ listings:
     "Kitty":
       link: "/apps/terminals/kitty"
       icon: "/static/icons/apps/terminals/kitty.svg"
-    "xTerm":
+    "Terminator":
       link: "#example"
       icon: "/assets/images/candies.png"
     "Alacritty":
-      link: "#example"
-      icon: "/assets/images/candies.png"
+      link: "/apps/terminals/alacritty"
+      icon: "/static/icons/apps/terminals/alacritty.svg"
 ---
