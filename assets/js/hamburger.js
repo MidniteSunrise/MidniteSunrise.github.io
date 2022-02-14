@@ -115,4 +115,15 @@ window.onclick = function (event) {
 			}
 		}
 	}
+
+	if (!event.target.matches(".index")) {
+		var dropdown = document.getElementsByClassName("dropdown-index");
+		var i;
+		for (i = 0; i < dropdown.length; i++) {
+			var openDropdown = dropdown[i];
+			if (openDropdown.classList.contains("show")) {
+				openDropdown.classList.remove("show");
+			}
+		}
+	}
 };
