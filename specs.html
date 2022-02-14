@@ -6,53 +6,93 @@ colorspace: orange
 <article>
     <header>
         <h2>Minimal-Mistakes Syntax Highlighting Specification</h2>
-        <nav class="spec-toc">
-            <div class="title">Contents</div>
+        <section id="index" secid="index" class="spec-index">
             <ol>
-                <li><a href="#sec-Prelude"><span class="spec-secid">1</span>Prelude</a>
-                    <input hidden class="toggle" type="checkbox" checked id="_toggle_1" /><label
-                        for="_toggle_1"></label>
-                    <ol>
-                        <li><a href="#sec-Interpreting-this-specification"><span
-                                    class="spec-secid">1.1</span>Interpreting this specification</a></li>
-                        <li><a href="#sec-Color-Palette"><span class="spec-secid">1.2</span>Color Palette</a>
-                            <input hidden class="toggle" type="checkbox" checked id="_toggle_1.2" /><label
-                                for="_toggle_1.2"></label>
-                            <ol>
-                                <li><a href="#sec-Standard"><span class="spec-secid">1.2.1</span>Standard</a></li>
-                                <li><a href="#sec-ANSI"><span class="spec-secid">1.2.2</span>ANSI</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#sec-Example-spec-compliant-theme-implementation"><span
-                                    class="spec-secid">1.3</span>Example spec-compliant theme implementation</a>
-                        </li>
-                    </ol>
-                </li>
-                <li><a href="#sec-General"><span class="spec-secid">2</span>General</a>
-                    <input hidden class="toggle" type="checkbox" checked id="_toggle_2" /><label
-                        for="_toggle_2"></label>
-                    <ol>
-                        <li><a href="#sec-Diffs"><span class="spec-secid">2.1</span>Diffs</a></li>
-                        <li><a href="#sec-Markup-Markdown-RST-etc-"><span class="spec-secid">2.2</span>Markup
-                                (Markdown, RST, etc.)</a></li>
-                    </ol>
-                </li>
-                <li><a href="#sec-Classes"><span class="spec-secid">3</span>Classes</a></li>
-                <li><a href="#sec-Comments"><span class="spec-secid">4</span>Comments</a></li>
-                <li><a href="#sec-Constants"><span class="spec-secid">5</span>Constants</a></li>
-                <li><a href="#sec-Entities"><span class="spec-secid">6</span>Entities</a></li>
-                <li><a href="#sec-Functions-Methods"><span class="spec-secid">7</span>Functions/Methods</a></li>
-                <li><a href="#sec-Keywords"><span class="spec-secid">8</span>Keywords</a></li>
-                <li><a href="#sec-Language-Built-ins"><span class="spec-secid">9</span>Language Built-ins</a></li>
-                <li><a href="#sec-Punctuation"><span class="spec-secid">10</span>Punctuation</a></li>
-                <li><a href="#sec-Serializable-Configuration-Languages"><span class="spec-secid">11</span>Serializable /
-                        Configuration Languages</a></li>
-                <li><a href="#sec-Storage"><span class="spec-secid">12</span>Storage</a></li>
-                <li><a href="#sec-Strings"><span class="spec-secid">13</span>Strings</a></li>
-                <li><a href="#sec-Variables"><span class="spec-secid">14</span>Variables</a></li>
-                <li><a href="#index"><span class="spec-secid">§</span>Index</a></li>
+                <li><a href="#AnsiBlack">AnsiBlack</a></li>
+                <li><a href="#AnsiBlue">AnsiBlue</a></li>
+                <li><a href="#AnsiBrightBlack">AnsiBrightBlack</a></li>
+                <li><a href="#AnsiBrightBlue">AnsiBrightBlue</a></li>
+                <li><a href="#AnsiBrightCyan">AnsiBrightCyan</a></li>
+                <li><a href="#AnsiBrightGreen">AnsiBrightGreen</a></li>
+                <li><a href="#AnsiBrightMagenta">AnsiBrightMagenta</a></li>
+                <li><a href="#AnsiBrightRed">AnsiBrightRed</a></li>
+                <li><a href="#AnsiBrightWhite">AnsiBrightWhite</a></li>
+                <li><a href="#AnsiBrightYellow">AnsiBrightYellow</a></li>
+                <li><a href="#AnsiCyan">AnsiCyan</a></li>
+                <li><a href="#AnsiGreen">AnsiGreen</a></li>
+                <li><a href="#AnsiMagenta">AnsiMagenta</a></li>
+                <li><a href="#AnsiRed">AnsiRed</a></li>
+                <li><a href="#AnsiWhite">AnsiWhite</a></li>
+                <li><a href="#AnsiYellow">AnsiYellow</a></li>
+                <li><a href="#Background">Background</a></li>
+                <li><a href="#BracketsParensBraces">BracketsParensBraces</a></li>
+                <li><a href="#BuiltInFunctions">BuiltInFunctions</a></li>
+                <li><a href="#BuiltInMagicMethodsOrConstants">BuiltInMagicMethodsOrConstants</a></li>
+                <li><a href="#ClassName">ClassName</a></li>
+                <li><a href="#Comment">Comment</a></li>
+                <li><a href="#Constant">Constant</a></li>
+                <li><a href="#ConstantEscapeSequences">ConstantEscapeSequences</a></li>
+                <li><a href="#CssParentSelectors">CssParentSelectors</a></li>
+                <li><a href="#Cyan">Cyan</a></li>
+                <li><a href="#DateTime">DateTime</a></li>
+                <li><a href="#Decorators">Decorators</a></li>
+                <li><a href="#Deprecated">Deprecated</a></li>
+                <li><a href="#DestructureingAliasRHS">DestructureingAliasRHS</a></li>
+                <li><a href="#DestructuringAliasLHS">DestructuringAliasLHS</a></li>
+                <li><a href="#DiffChanged">DiffChanged</a></li>
+                <li><a href="#DiffDeleted">DiffDeleted</a></li>
+                <li><a href="#DiffHeader">DiffHeader</a></li>
+                <li><a href="#DiffInserted">DiffInserted</a></li>
+                <li><a href="#DiffText">DiffText</a></li>
+                <li><a href="#DocCommentKeywords">DocCommentKeywords</a></li>
+                <li><a href="#DocCommentParameters">DocCommentParameters</a></li>
+                <li><a href="#DocCommentTypes">DocCommentTypes</a></li>
+                <li><a href="#Error">Error</a></li>
+                <li><a href="#Foreground">Foreground</a></li>
+                <li><a href="#FunctionNames">FunctionNames</a></li>
+                <li><a href="#FunctionParameters">FunctionParameters</a></li>
+                <li><a href="#GenericTemplatesAndMappedDeclarations">GenericTemplatesAndMappedDeclarations</a></li>
+                <li><a href="#Green">Green</a></li>
+                <li><a href="#HtmlCssAttributeNames">HtmlCssAttributeNames</a></li>
+                <li><a href="#HtmlTags">HtmlTags</a></li>
+                <li><a href="#InheritedClassName">InheritedClassName</a></li>
+                <li><a href="#InstanceReservedWords">InstanceReservedWords</a></li>
+                <li><a href="#Invalid">Invalid</a></li>
+                <li><a href="#Keys">Keys</a></li>
+                <li><a href="#Keyword">Keyword</a></li>
+                <li><a href="#KeywordGenericCssSelector">KeywordGenericCssSelector</a></li>
+                <li><a href="#KeywordNew">KeywordNew</a></li>
+                <li><a href="#MarkupBlockquote">MarkupBlockquote</a></li>
+                <li><a href="#MarkupBold">MarkupBold</a></li>
+                <li><a href="#MarkupCodeBlockWithoutSyntax">MarkupCodeBlockWithoutSyntax</a></li>
+                <li><a href="#MarkupHeading">MarkupHeading</a></li>
+                <li><a href="#MarkupHorizontalRule">MarkupHorizontalRule</a></li>
+                <li><a href="#MarkupInlineCode">MarkupInlineCode</a></li>
+                <li><a href="#MarkupItalic">MarkupItalic</a></li>
+                <li><a href="#MarkupLinkText">MarkupLinkText</a></li>
+                <li><a href="#MarkupLinkUrl">MarkupLinkUrl</a></li>
+                <li><a href="#MarkupListBulletOrNumber">MarkupListBulletOrNumber</a></li>
+                <li><a href="#MarkupRSTConstants">MarkupRSTConstants</a></li>
+                <li><a href="#Modifiers">Modifiers</a></li>
+                <li><a href="#ObjectKeys">ObjectKeys</a></li>
+                <li><a href="#Orange">Orange</a></li>
+                <li><a href="#Pink">Pink</a></li>
+                <li><a href="#Purple">Purple</a></li>
+                <li><a href="#Red">Red</a></li>
+                <li><a href="#ScopeOfInterest">ScopeOfInterest</a></li>
+                <li><a href="#Selection">Selection</a></li>
+                <li><a href="#SeparatorsReferencesOrAccessors">SeparatorsReferencesOrAccessors</a></li>
+                <li><a href="#Storage">Storage</a></li>
+                <li><a href="#String">String</a></li>
+                <li><a href="#StringInterpolationOperators">StringInterpolationOperators</a></li>
+                <li><a href="#StringRegExp">StringRegExp</a></li>
+                <li><a href="#Support">Support</a></li>
+                <li><a href="#Types">Types</a></li>
+                <li><a href="#Variable">Variable</a></li>
+                <li><a href="#YamlAliases">YamlAliases</a></li>
+                <li><a href="#Yellow">Yellow</a></li>
             </ol>
-        </nav>
+        </section>
     </header>
     <section id="sec-Prelude" secid="1">
         <h3><span class="spec-secid" title="link to this section"><a href="#sec-Prelude">1</a></span>Prelude</h3>
@@ -670,93 +710,5 @@ colorspace: orange
 <span class="token keyword">import</span> <span class="token punctuation">{</span> <span class="token maybe-class-name">Foo</span> <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'foo'</span><span class="token punctuation">;</span>          <span class="token comment">// Foo = Foreground</span>
 </code></pre>
             </section>
-    </section>
-    <section id="index" secid="index" class="spec-index">
-        <h2><span class="spec-secid" title="link to the index"><a href="#index">§</a></span>Index</h2>
-        <ol>
-            <li><a href="#AnsiBlack">AnsiBlack</a></li>
-            <li><a href="#AnsiBlue">AnsiBlue</a></li>
-            <li><a href="#AnsiBrightBlack">AnsiBrightBlack</a></li>
-            <li><a href="#AnsiBrightBlue">AnsiBrightBlue</a></li>
-            <li><a href="#AnsiBrightCyan">AnsiBrightCyan</a></li>
-            <li><a href="#AnsiBrightGreen">AnsiBrightGreen</a></li>
-            <li><a href="#AnsiBrightMagenta">AnsiBrightMagenta</a></li>
-            <li><a href="#AnsiBrightRed">AnsiBrightRed</a></li>
-            <li><a href="#AnsiBrightWhite">AnsiBrightWhite</a></li>
-            <li><a href="#AnsiBrightYellow">AnsiBrightYellow</a></li>
-            <li><a href="#AnsiCyan">AnsiCyan</a></li>
-            <li><a href="#AnsiGreen">AnsiGreen</a></li>
-            <li><a href="#AnsiMagenta">AnsiMagenta</a></li>
-            <li><a href="#AnsiRed">AnsiRed</a></li>
-            <li><a href="#AnsiWhite">AnsiWhite</a></li>
-            <li><a href="#AnsiYellow">AnsiYellow</a></li>
-            <li><a href="#Background">Background</a></li>
-            <li><a href="#BracketsParensBraces">BracketsParensBraces</a></li>
-            <li><a href="#BuiltInFunctions">BuiltInFunctions</a></li>
-            <li><a href="#BuiltInMagicMethodsOrConstants">BuiltInMagicMethodsOrConstants</a></li>
-            <li><a href="#ClassName">ClassName</a></li>
-            <li><a href="#Comment">Comment</a></li>
-            <li><a href="#Constant">Constant</a></li>
-            <li><a href="#ConstantEscapeSequences">ConstantEscapeSequences</a></li>
-            <li><a href="#CssParentSelectors">CssParentSelectors</a></li>
-            <li><a href="#Cyan">Cyan</a></li>
-            <li><a href="#DateTime">DateTime</a></li>
-            <li><a href="#Decorators">Decorators</a></li>
-            <li><a href="#Deprecated">Deprecated</a></li>
-            <li><a href="#DestructureingAliasRHS">DestructureingAliasRHS</a></li>
-            <li><a href="#DestructuringAliasLHS">DestructuringAliasLHS</a></li>
-            <li><a href="#DiffChanged">DiffChanged</a></li>
-            <li><a href="#DiffDeleted">DiffDeleted</a></li>
-            <li><a href="#DiffHeader">DiffHeader</a></li>
-            <li><a href="#DiffInserted">DiffInserted</a></li>
-            <li><a href="#DiffText">DiffText</a></li>
-            <li><a href="#DocCommentKeywords">DocCommentKeywords</a></li>
-            <li><a href="#DocCommentParameters">DocCommentParameters</a></li>
-            <li><a href="#DocCommentTypes">DocCommentTypes</a></li>
-            <li><a href="#Error">Error</a></li>
-            <li><a href="#Foreground">Foreground</a></li>
-            <li><a href="#FunctionNames">FunctionNames</a></li>
-            <li><a href="#FunctionParameters">FunctionParameters</a></li>
-            <li><a href="#GenericTemplatesAndMappedDeclarations">GenericTemplatesAndMappedDeclarations</a></li>
-            <li><a href="#Green">Green</a></li>
-            <li><a href="#HtmlCssAttributeNames">HtmlCssAttributeNames</a></li>
-            <li><a href="#HtmlTags">HtmlTags</a></li>
-            <li><a href="#InheritedClassName">InheritedClassName</a></li>
-            <li><a href="#InstanceReservedWords">InstanceReservedWords</a></li>
-            <li><a href="#Invalid">Invalid</a></li>
-            <li><a href="#Keys">Keys</a></li>
-            <li><a href="#Keyword">Keyword</a></li>
-            <li><a href="#KeywordGenericCssSelector">KeywordGenericCssSelector</a></li>
-            <li><a href="#KeywordNew">KeywordNew</a></li>
-            <li><a href="#MarkupBlockquote">MarkupBlockquote</a></li>
-            <li><a href="#MarkupBold">MarkupBold</a></li>
-            <li><a href="#MarkupCodeBlockWithoutSyntax">MarkupCodeBlockWithoutSyntax</a></li>
-            <li><a href="#MarkupHeading">MarkupHeading</a></li>
-            <li><a href="#MarkupHorizontalRule">MarkupHorizontalRule</a></li>
-            <li><a href="#MarkupInlineCode">MarkupInlineCode</a></li>
-            <li><a href="#MarkupItalic">MarkupItalic</a></li>
-            <li><a href="#MarkupLinkText">MarkupLinkText</a></li>
-            <li><a href="#MarkupLinkUrl">MarkupLinkUrl</a></li>
-            <li><a href="#MarkupListBulletOrNumber">MarkupListBulletOrNumber</a></li>
-            <li><a href="#MarkupRSTConstants">MarkupRSTConstants</a></li>
-            <li><a href="#Modifiers">Modifiers</a></li>
-            <li><a href="#ObjectKeys">ObjectKeys</a></li>
-            <li><a href="#Orange">Orange</a></li>
-            <li><a href="#Pink">Pink</a></li>
-            <li><a href="#Purple">Purple</a></li>
-            <li><a href="#Red">Red</a></li>
-            <li><a href="#ScopeOfInterest">ScopeOfInterest</a></li>
-            <li><a href="#Selection">Selection</a></li>
-            <li><a href="#SeparatorsReferencesOrAccessors">SeparatorsReferencesOrAccessors</a></li>
-            <li><a href="#Storage">Storage</a></li>
-            <li><a href="#String">String</a></li>
-            <li><a href="#StringInterpolationOperators">StringInterpolationOperators</a></li>
-            <li><a href="#StringRegExp">StringRegExp</a></li>
-            <li><a href="#Support">Support</a></li>
-            <li><a href="#Types">Types</a></li>
-            <li><a href="#Variable">Variable</a></li>
-            <li><a href="#YamlAliases">YamlAliases</a></li>
-            <li><a href="#Yellow">Yellow</a></li>
-        </ol>
     </section>
 </article>
