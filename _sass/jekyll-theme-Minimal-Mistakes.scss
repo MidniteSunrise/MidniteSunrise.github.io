@@ -4,6 +4,7 @@
 @import "mixins";
 @import "rouge-Minimal-Mistakes";
 @import "colorspaces";
+@import "specs";
 
 body {
 	padding: 0px 0 20px 0px;
@@ -617,5 +618,3 @@ table.contribute {
 		}
 	}
 }
-
-@import "specs";

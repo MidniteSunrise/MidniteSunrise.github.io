@@ -290,22 +290,6 @@ footer {
 	margin-left: 1ex;
 }
 
-@media (min-width: 1240px) {
-	.spec-sidebar-toggle + label {
-		display: none;
-	}
-
-	.spec-sidebar {
-		display: block;
-		box-shadow: inset 1px 0 rgba(0, 0, 0, 0.05),
-			inset 4px 0 8px -2px rgba(0, 0, 0, 0.08) !important;
-	}
-
-	body {
-		padding-right: 300px;
-	}
-}
-
 /* Notes */
 
 .spec-note {
