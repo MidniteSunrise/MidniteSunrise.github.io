@@ -104,22 +104,17 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h7,
-h8 {
+h6 {
 	font-weight: bold;
-	margin: 3em 0 1em;
 	position: relative;
 }
 
 h1 {
 	font-size: 1.5em;
-	margin: 6em 0 3em;
 }
 
 h2 {
 	font-size: 1.5em;
-	margin-top: 5em;
 }
 
 h3,
@@ -914,4 +909,59 @@ pre[class*="language-"] {
 	&.entity {
 		cursor: help;
 	}
+}
+
+/* Dropdown Button */
+.index {
+	color: $foreground;
+	border: 1px solid $cyan;
+	background: $background;
+	font-size: 16px;
+	cursor: pointer;
+	min-width: 360px;
+	text-align: left;
+	.right {
+		float: right;
+	}
+}
+
+/* Dropdown button on hover & focus */
+.index:hover,
+.index:focus {
+	background-color: $background;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-index {
+	display: none;
+	position: absolute;
+	background-color: $faded;
+	min-width: 360px;
+	max-height: 400px;
+	overflow-y: scroll;
+	z-index: 1;
+	a.selected {
+		background: $current;
+	}
+}
+
+/* Links inside the dropdown */
+.dropdown-index a {
+	color: $background;
+	padding: 8px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-index a:hover {
+	color: $foreground;
+	background: $background;
 }

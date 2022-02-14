@@ -1,7 +1,6 @@
 @import "normalize";
 @import "fonts";
 @import "variables";
-@import "specs";
 @import "mixins";
 @import "rouge-Minimal-Mistakes";
 @import "colorspaces";
@@ -618,3 +617,5 @@ table.contribute {
 		}
 	}
 }
+
+@import "specs";

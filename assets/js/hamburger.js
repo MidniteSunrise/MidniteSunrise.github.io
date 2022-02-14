@@ -15,6 +15,10 @@ window.onresize = () => {
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+function selectIndex() {
+	document.getElementById("myIndex").classList.toggle("show");
+}
+
 function selectPalette() {
 	document.getElementById("myPalette").classList.toggle("show");
 }
