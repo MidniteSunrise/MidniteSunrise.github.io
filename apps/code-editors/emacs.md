@@ -17,10 +17,10 @@ M-x package-install <RET> minimal-mistakes-theme
 
 #### Install using MELPA
 
-First, make sure to have enabled MELPA repository in your configuration. Then, you will find dracula in the regular package listing.
+First, make sure to have enabled MELPA repository in your configuration. Then, you will find minimal-mistakes in the regular package listing.
 
 ```
-M-x package-install <RET> dracula-theme
+M-x package-install <RET> minimal-mistakes-theme
 ```
 
 #### Install from Download
@@ -52,7 +52,7 @@ To load a theme add the following to your init.el
 
 #### Configure
 
-Some aspects of this theme are customizable. You can change them by doing `M-x customize-group minimal-mistakes`. Then restart Emacs to apply them.
+Some aspects of this theme are customizable. You can change them by doing `M-x customize-group minimal-mistakes. Then restart Emacs to apply them.
 
 #### Activating theme
 
