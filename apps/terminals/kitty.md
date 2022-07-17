@@ -17,7 +17,7 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 
 ```
 git clone https://github.com/Minimal-Mistakes/kitty.git ~/.cache/kitty/
-cp ~/.cache/kitty/colors.conf ~/.config/kitty/colors.conf
+cp -r ~/.cache/kitty/colors.conf ~/.config/kitty/colors.conf
 ```
 
 add `include colors.conf` to the top of `~/.config/kitty/kitty.conf`

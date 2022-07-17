@@ -17,9 +17,9 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 
 ```
 git clone https://github.com/Minimal-Mistakes/icons.git ~/.cache/icons/
-cp ~/.cache/icons/Gnome-Minimal-Mistakes ~/.icons/Gnome-Minimal-Mistakes
-cp ~/.cache/icons/Numix-Minimal-Mistakes ~/.icons/Numix-Minimal-Mistakes
-cp ~/.cache/icons/Papirus-Minimal-Mistakes ~/.icons/Papirus-Minimal-Mistakes
+cp -r ~/.cache/icons/Gnome-Minimal-Mistakes ~/.icons/Gnome-Minimal-Mistakes
+cp -r ~/.cache/icons/Numix-Minimal-Mistakes ~/.icons/Numix-Minimal-Mistakes
+cp -r ~/.cache/icons/Papirus-Minimal-Mistakes ~/.icons/Papirus-Minimal-Mistakes
 ```
 
 #### Activating icon theme
@@ -69,8 +69,8 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 
 ```
 git clone https://github.com/Minimal-Mistakes/gtk.git ~/.cache/qt-themes/
-cp ~/.cache/qt-themes/qt5/ ~/.config/qt5ct/minimal-mistakes
-cp ~/.cache/qt-themes/qt6/ ~/.config/qt6ct/minimal-mistakes
+cp -r ~/.cache/qt-themes/qt5/ ~/.config/qt5ct/minimal-mistakes
+cp -r ~/.cache/qt-themes/qt6/ ~/.config/qt6ct/minimal-mistakes
 ```
 
 #### Activating theme
