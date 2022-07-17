@@ -21,7 +21,7 @@ We hope so, but we need your help to accomplish that. Since you're already using
 
 1. Create a new repository based on this [template](https://github.com/minimal-mistakes/template).
 2. Build the new theme using the [Color Palette](#color-palette) above.
-3. Finally, [submit an issue](https://github.com/minimal-mistakes/theme/issues/new) with a link to your repository. Once the theme is accepted, we will move the repository under the Minimal-Mistakes organization and give you rights to maintain it :)
+3. Finally, [submit an issue](https://github.com/minimal-mistakes/themes/issues/new) with a link to your repository. Once the theme is accepted, we will move the repository under the Minimal-Mistakes organization and give you rights to maintain it :)
 
 ## Color Palette
 
