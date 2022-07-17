@@ -16,9 +16,9 @@ Download using the [GitHub .zip download](https://github.com/minimal-mistakes/qt
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```
-git clone https://github.com/Minimal-Mistakes/gtk.git ~/.cache/qt-themes/
-cp ~/.cache/qt-themes/qt5/ ~/.config/qt5ct/minimal-mistakes
-cp ~/.cache/qt-themes/qt6/ ~/.config/qt6ct/minimal-mistakes
+git clone https://github.com/Minimal-Mistakes/qt.git ~/.cache/qt-themes/
+cp -r ~/.cache/qt-themes/qt6/Minimal-Mistakes.conf ~/.config/qt6ct/colors/
+cp -r ~/.cache/qt-themes/qt5/Minimal-Mistakes.conf ~/.config/qt5ct/colors/
 ```
 
 #### Activating theme
