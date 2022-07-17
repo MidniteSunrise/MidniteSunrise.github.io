@@ -36,7 +36,10 @@ Download using the [GitHub .zip download](https://github.com/minimal-mistakes/ic
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```
-git clone https://github.com/Minimal-Mistakes/icons.git ~/.icons/minimal-mistakes
+git clone https://github.com/Minimal-Mistakes/icons.git ~/.cache/icons/
+cp -r ~/.cache/icons/Gnome-Minimal-Mistakes ~/.icons/Gnome-Minimal-Mistakes
+cp -r ~/.cache/icons/Numix-Minimal-Mistakes ~/.icons/Numix-Minimal-Mistakes
+cp -r ~/.cache/icons/Papirus-Minimal-Mistakes ~/.icons/Papirus-Minimal-Mistakes
 ```
 
 #### Activating icon theme
