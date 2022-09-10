@@ -1,6 +1,6 @@
-# Homepage for [minimal-mistakes.xyz](https://minimal-mistakes.xyz/)
+# Homepage for [minimalmistakes.org](https://minimalmistakes.org/)
 
-> This repo contains the source code for [minimal-mistakes.xyz](https://minimal-mistakes.xyz/).
+> This repo contains the source code for [minimalmistakes.org](https://minimalmistakes.org/).
 
 ![Screenshot](./assets/images/homepage.png)
 

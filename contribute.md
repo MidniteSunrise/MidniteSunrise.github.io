@@ -5,7 +5,7 @@ colorspace: orange
 
 ## Install
 
-All instructions can be found at [minimal-mistakes.xyz](https://minimal-mistakes.xyz/).
+All instructions can be found at [minimalmistakes.org](https://minimalmistakes.org/).
 
 ## FAQ
 
@@ -202,4 +202,4 @@ We hope so, but we need your help to accomplish that. Since you're already using
   </tbody>
 </table>
 
-For more details about how to apply these different colors to represent different code symbols, please see the [Minimal-Mistakes Specification](https://minimal-mistakes.xyz/specs).
+For more details about how to apply these different colors to represent different code symbols, please see the [Minimal-Mistakes Specification](https://minimalmistakes.org/specs).
