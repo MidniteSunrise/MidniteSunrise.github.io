@@ -28,6 +28,9 @@ listings:
     "Emacs":
       link: "/apps/code-editors/emacs"
       icon: "/static/icons/apps/code-editors/emacs.svg"
+    "Lapce":
+      link: "/apps/code-editors/lapce"
+      icon: "/static/icons/apps/code-editors/lapce.svg"
     "Vim":
       link: "/apps/code-editors/vim"
       icon: "/static/icons/apps/code-editors/vim.svg"
