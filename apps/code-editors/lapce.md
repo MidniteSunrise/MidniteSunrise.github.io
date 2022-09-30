@@ -3,7 +3,7 @@ layout: app
 colorspace: pink
 title: Lapce
 icon: "/static/icons/apps/code-editors/lapce.svg"
-# screenshot: "screenshot.png"
+screenshot: "screenshot.png"
 repo: "Lapce"
 ---
 
